@@ -1,7 +1,7 @@
 <p>
-  <div><%= comment.content %></div>
-  <div>
-    <%= comment.user %>
+  <div class="pv3  bb b--black-30">
+    <%= comment.content %>
+    <div class="pv3 i">User: <%= comment.user %></div>
     <%= link_to 'Show', comment_path(comment) %>
     <%= link_to 'Delete', comment_path(comment),
             method: :delete,

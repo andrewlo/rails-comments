@@ -1,11 +1,3 @@
-<p>
-  <strong>User:</strong>
-  <%= @comment.user %>
-</p>
-
-<p>
-  <strong>Content:</strong>
-  <%= @comment.content %>
-</p>
+<%= render @comment %>
 
 <%= link_to 'Back', comments_path %>
